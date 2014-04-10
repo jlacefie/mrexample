@@ -27,7 +27,7 @@ public class MRExample extends Configured implements Tool
 	private static final String KEYSPACE = "test";
     private static final String COLUMN_FAMILY = "mrexample";
 	private static final String TABLE_NAME = KEYSPACE + "." + COLUMN_FAMILY;
-	private static final String NODES = "192.168.56.11";
+	private static final String NODES = "ENTER YOUR NODES LIST HERE";
 	
     public static void main(String[] args) throws Exception
     {
